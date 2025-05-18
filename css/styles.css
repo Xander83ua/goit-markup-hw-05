@@ -515,6 +515,7 @@ color: #fff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
+gap: 24px;
 }
 .input_field {
    border: 1px solid #fff;
@@ -547,7 +548,7 @@ border: none;
 cursor: pointer;
 }
 
-    .subscribe-button .subscribe-icon {
+    .subscribe-button subscribe-icon {
     position: absolute;
     left: 8px;
     top: 50%;
