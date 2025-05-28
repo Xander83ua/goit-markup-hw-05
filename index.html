@@ -412,8 +412,8 @@
                     placeholder="E-mail">
 
                     <button class="subscribe-button" type="submit">Subscribe
-                    <svg class="subscribe-icon">
-                       <use href=".images/icons.svg#icon_send"></use>
+                    <svg class="subscribe-icon" width="24" height="24">
+                       <use href=".images/icons.svg#icon-icon_send"></use>
                     </svg>
                     </button>
                 </form>
@@ -421,12 +421,13 @@
             </div>
         </footer>
 
-        <div class="backdrop is-open">        
+        <!-- <div class="backdrop is-open">         -->
             <div class="modal">
-                 <button class="popup-close" type="button"></button>
+                 <button class="popup-close" type="button">
                  <svg class="close-icon" width="8" height="8">
                  <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                  </svg>
+                </button>
                 <p class="popup-title">Leave your contacts and we will call you back</p>
                 <form name="modal-form">
                     
@@ -490,9 +491,10 @@
                         name="user-privacy">
                         <label for="user-privacy">I accept the terms and conditions of the</label>
                     </div>
-                    
-                                          
+                                                              
                 </form>
+
+<button class="send-button">Send</button>
 
             </div>
             

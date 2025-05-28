@@ -173,7 +173,7 @@ color: #fff;
     color: #FFFFFF;
     background-color: #404bbf;
 }
-button{
+.button {
 cursor: pointer;
 }
 
@@ -523,15 +523,19 @@ border-radius: 4px;
 width: 264px;
 height: 40px;
 background-color: transparent;
+font-size: 12px; 
+line-height: 2;
+letter-spacing: 0.04em;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 color: #fff;
 margin-right: 23px;
+padding-left: 16px;
 }
 .subscribe-button {
     position: relative;
     border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -555,6 +559,12 @@ cursor: pointer;
     width: 24px;
     height: 24px;
 }
+
+.subscribe-icon {
+    margin-left: 16px;
+}
+
+/* modal window */
 
 .backdrop {
     position: fixed;
@@ -593,7 +603,7 @@ cursor: pointer;
     }
 
 
-.popup-close {
+.popup-close  {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -607,19 +617,24 @@ cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .popup-close :hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 .popup-close :focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
-.popup-close {
-     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      
+.input-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .popup-title {
@@ -632,7 +647,8 @@ line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding: 72px 24px 488px 24px;
+padding: 72px 0px 16px 0px;
+
 }
 .modal-form {
     display: flex;
@@ -692,6 +708,30 @@ position: relative;
 }
 .text-area :focus {
     border-color: #4D5AE5;
+}
+
+.send-button {
+ color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;    
+        display: block;
+        margin: 0 auto;
+        border-radius: 4px;   
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 24px 96px 24px 95px;
+}
+.send-button:hover {
+    background-color: #404BBF;
+}
+.send-button:focus {
+    color: #FFFFFF;
+    background-color: #404bbf;
 }
 
 
