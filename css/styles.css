@@ -632,6 +632,9 @@ cursor: pointer;
     border: none;
     fill: #ffffff;
 }
+.close-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
       
 .input-svg {
@@ -648,7 +651,8 @@ line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding: 72px 0px 16px 0px;
+padding: 0px 0px 16px 0px;
+margin-bottom: 16px;
 
 }
 .modal-form {
@@ -657,6 +661,9 @@ padding: 72px 0px 16px 0px;
     border-radius: 4px;
 width: 360px;
 height: 336px;
+}
+.popup-form {
+    margin-bottom: 8px;
 }
 .popup-label {
     font-size: 12px;
@@ -689,6 +696,16 @@ position: relative;
 
 .popup-input :focus {
     border-color: #4D5AE5;
+}
+.input-svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-svg :focus{
+    fill: #4D5AE5;
 }
 
 
