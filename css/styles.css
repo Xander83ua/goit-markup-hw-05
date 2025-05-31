@@ -622,12 +622,12 @@ cursor: pointer;
                 border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.popup-close :hover {
+.popup-close:hover {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
 }
-.popup-close :focus {
+.popup-close:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
@@ -694,7 +694,7 @@ position: relative;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.popup-input :focus {
+.popup-input:focus {
     border-color: #4D5AE5;
 }
 .input-svg {
@@ -704,8 +704,11 @@ position: relative;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-svg :focus{
+.input-svg:focus{
     fill: #4D5AE5;
+}
+.popup-comment {
+    margin-bottom: 16px;
 }
 
 
@@ -724,9 +727,17 @@ position: relative;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.text-area :focus {
+.text-area:focus {
     border-color: #4D5AE5;
 }
+.popup-checkbox {
+    margin-bottom: 24px;
+}
+.user_privacy {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+} 
 
 .send-button {
  color: #FFFFFF;
