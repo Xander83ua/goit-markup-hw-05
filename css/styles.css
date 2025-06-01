@@ -695,8 +695,9 @@ position: relative;
 }
 
 .popup-input:focus {
-    border-color: #4D5AE5;
+    border-color: #4D5AE5;   
 }
+
 .input-svg {
     position: absolute;
     left: 16px;
@@ -704,7 +705,8 @@ position: relative;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-svg:focus{
+
+.popup-input-wrapper:has(input:focus) .input-svg {
     fill: #4D5AE5;
 }
 .popup-comment {
@@ -737,7 +739,20 @@ position: relative;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    color: #8e8f99;
 } 
+.span-user-privacy {
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    fill: transparent;
+}
 
 .send-button {
  color: #FFFFFF;
