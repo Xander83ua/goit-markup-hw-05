@@ -755,6 +755,11 @@ position: relative;
     align-items: center; 
     justify-content: center;
     fill: transparent;
+    background-color:var(#404bbf);
+}
+.visually-hidden:checked + .form-checkmark{
+    border: none;
+   fill:  #F4F4FD;
 }
 
 .send-button {
