@@ -760,12 +760,12 @@ position: relative;
     margin-right: 8px;
 }
 .visually-hidden:checked + .user_privacy .form-checkmark{
-    background-color:#404bbf;
+    background-color: #404bbf;
     border: none;
    fill: #F4F4FD;
 }
 .accent {
-    color: var(#4d5ae5);
+    color: #4d5ae5;
 }
 .send-button {
  color: #FFFFFF;
