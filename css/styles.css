@@ -766,6 +766,7 @@ position: relative;
 }
 .accent {
     color: #4d5ae5;
+    text-decoration: underline;
 }
 .send-button {
  color: #FFFFFF;
