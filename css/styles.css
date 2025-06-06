@@ -764,7 +764,9 @@ position: relative;
     border: none;
    fill: #F4F4FD;
 }
-
+.accent {
+    color: var(#4d5ae5);
+}
 .send-button {
  color: #FFFFFF;
     background-color: #4D5AE5;
@@ -781,7 +783,8 @@ position: relative;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 24px 96px 24px 95px;
     cursor: pointer;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    
 }
 .send-button:hover {
     background-color: #404BBF;
