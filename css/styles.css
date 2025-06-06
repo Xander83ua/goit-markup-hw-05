@@ -742,7 +742,8 @@ position: relative;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-} 
+}
+
 .form-checkmark {
     width: 16px;
     height: 16px;
@@ -756,10 +757,12 @@ position: relative;
     justify-content: center;
     fill: transparent;
     background-color:var(#404bbf);
+    margin-right: 8px;
 }
-.visually-hidden:checked + .form-checkmark{
+.visually-hidden:checked + .user_privacy .form-checkmark{
+    background-color:#404bbf;
     border: none;
-   fill:  #F4F4FD;
+   fill: #F4F4FD;
 }
 
 .send-button {
